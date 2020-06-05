@@ -1,0 +1,307 @@
+{
+  "start-time" : "2020-06-05T11:10:27.471",
+  "akka-version" : "2.6.0",
+  "akka-diagnostics-version" : "1.1.12",
+  "akka-http-version" : "10.1.11",
+  "akka-split-brain-resolver-version" : "1.1.12",
+  "classpath" : "C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\job-1\target\3c571fda\6bd3d005\orders_2.13-0.1-SNAPSHOT.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\3f9af502\8d7931b3\cinnamon-scala_2.13-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\91603289\ddf3583c\cinnamon-core-java-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\9b9ab3cc\9e4235b4\akka-serialization-jackson_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\5033cdac\aff38c77\jackson-module-scala_2.13-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\2acf1659\fcfcb823\cinnamon-akka-http_2.13-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\4e18366c\65a4d7a3\config-1.4.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\f4500287\0efedb67\jackson-core-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\d91072b0\a3544a82\akka-distributed-data_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\3ae6a80d\e1526a54\jandex-2.0.5.Final.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\712e9ee8\8752e249\akka-split-brain-resolver_2.13-1.1.12.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\46ae466b\cb34b137\scala-java8-compat_2.13-0.9.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\873cd95d\4233fb28\jackson-datatype-jdk8-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\723b8b4a\48c8d9ca\jaxb-api-2.3.1.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\e599dd38\066b4db5\commons-lang3-3.5.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\436c7416\f7a642d3\scala-library-2.13.1.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\6eff02eb\0caa92e8\txw2-2.3.1.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\28866b89\48a5ef8b\akka-http-spray-json_2.13-10.1.11.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\b572b182\de51ef4b\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\d8da942f\a5f09784\spray-json_2.13-1.3.5.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\d363d7dc\a83fa3ff\classmate-1.3.4.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\5ae0de18\29a67df4\jnr-a64asm-1.0.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\0eb838ec\173c0be0\akka-coordination_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\4466a4ab\0a68ca93\akka-protobuf-v3_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\d0b0f822\721ddddb\cinnamon-jvm-metrics-producer-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\3a4f3542\dccb3b8e\jnr-constants-0.9.12.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\f5f60b50\12b3affb\akka-http-core_2.13-10.1.11.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\92529b69\f5a8db26\ssl-config-core_2.13-0.4.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\752e9fd2\c140e4ce\simpleclient-0.8.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\999ee7d8\97705cb7\logback-classic-1.2.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\4ec22eb7\3a1689ef\asm-commons-5.0.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\dc48f4f6\be238050\asm-5.0.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\602e5b45\505e9f5a\istack-commons-runtime-3.0.7.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\17aa6eaa\11c5c43b\akka-cluster-sharding_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\96ac31bf\afa76a91\h2-1.4.199.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\980d4b6b\bb6a568b\hibernate-entitymanager-5.4.6.Final.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\cea9423f\3fb9012e\lmdbjava-0.7.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\8c4c7680\025fb2e5\jackson-annotations-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\408eee60\af2bdcdb\c3p0-0.9.5.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\f55cc5cc\c653cd40\FastInfoset-1.2.15.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\fba62687\aa4347ce\cinnamon-java-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\421008cc\5dff3bb4\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\86c86fce\1b96c5e6\simpleclient_httpserver-0.8.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\87cd75d3\a7690bbc\akka-management-cluster-http_2.13-1.0.5.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\ff655ce2\4e207215\akka-slf4j_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\427d8b5d\0e96b0bf\byte-buddy-1.9.11.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\512d0560\79aadb42\javax.persistence-api-2.2.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\8805791f\be35860f\agrona-1.0.8.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\e294afad\ea1caec1\protobuf-java-3.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\98e6251d\d9e87303\mchange-commons-java-0.2.15.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\3c787136\14d77992\HdrHistogram-2.1.12.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\849b419b\9f77b5f0\simpleclient_common-0.8.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\9f3000e5\17cd9300\jackson-dataformat-cbor-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\78537e84\9058fb50\cinnamon-common-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\bc8afef0\3a662b3b\akka-diagnostics_2.13-1.1.12.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\577ed7c5\76f2ba34\jnr-ffi-2.1.9.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\1ef9f262\d0557251\stax-ex-1.8.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\820d0e17\3df2aabe\jffi-1.2.18.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\c231f05c\40227031\javassist-3.24.0-GA.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\69f15e4d\21bc5909\antlr-2.7.7.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\8566b4c7\f69ed484\cinnamon-akka_2.13-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\93bc79b6\d43d3445\hibernate-core-5.4.6.Final.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\99962e00\c21dd68c\akka-http_2.13-10.1.11.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\7e42db21\814119e2\akka-cluster_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\f44a6e0c\748e460d\cinnamon-prometheus-httpserver-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\43244328\052d106f\slf4j-api-1.7.28.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\9e089e4a\53b2dca7\dom4j-2.1.1.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\ee68422e\7acd4d65\jboss-logging-3.3.2.Final.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\7871253c\e695b49a\akka-actor_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\b8184c81\80eb210f\akka-remote_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\83915d7e\4d6ce4ea\javax.activation-api-1.2.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\66bfbb52\d875bee2\jnr-x86asm-1.0.2.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\e841d7e2\1b1e610b\cinnamon-prometheus-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\273e940d\30189697\akka-management_2.13-1.0.5.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\b99d61f1\daed874d\paranamer-2.8.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\f5867a11\3bc0ac48\akka-persistence_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\27943f58\c15dcf6d\jaxb-runtime-2.3.1.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\8009b06e\002f34b9\cinnamon-core_2.13-2.13.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\8b300e30\8fa64fae\reactive-streams-1.0.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\add99749\e023e618\jackson-module-parameter-names-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\1624694c\2a0bf9ae\asm-tree-5.0.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\0e9ce94f\ab926ea8\jackson-module-paranamer-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\f0921153\22111b7f\asm-analysis-5.0.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\609b3521\eca239bd\jffi-1.2.18-native.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\27ae3c2d\2c145835\asm-util-5.0.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\8388f38d\c5f17aae\akka-parsing_2.13-10.1.11.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\1ca5cd24\a021cd8c\jackson-datatype-jsr310-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\14d8bab0\8d05bad2\logback-core-1.2.3.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\87ab9df1\054ff98d\akka-cluster-tools_2.13-2.6.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\fe4950bf\159e56d9\hibernate-c3p0-5.4.6.Final.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\49646955\4870ab3c\jackson-databind-2.10.0.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\76242736\9fac7827\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\HR11MD\AppData\Local\Temp\sbt_46988f7\target\fdd85097\5254d47e\akka-stream_2.13-2.6.0.jar",
+  "configuration-warnings" : [],
+  "system-metrics" : {
+    "heap-init" : 530579456,
+    "heap-max" : 8480882688,
+    "heap-used" : 31537568,
+    "heap-committed" : 312475648,
+    "os-processors" : 8,
+    "mem-pool-0" : {
+      "name" : "CodeHeap 'non-nmethods'",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 5898240,
+      "used" : 1410944,
+      "committed" : 2555904
+    },
+    "mem-pool-1" : {
+      "name" : "Metaspace",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 63342272,
+      "committed" : 65957888
+    },
+    "mem-pool-2" : {
+      "name" : "CodeHeap 'profiled nmethods'",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 122880000,
+      "used" : 8752384,
+      "committed" : 8781824
+    },
+    "mem-pool-3" : {
+      "name" : "Compressed Class Space",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 8920752,
+      "committed" : 10354688
+    },
+    "mem-pool-4" : {
+      "name" : "G1 Eden Space",
+      "type" : "Heap memory",
+      "init" : 27262976,
+      "max" : -1,
+      "used" : 8388608,
+      "committed" : 167772160
+    },
+    "mem-pool-5" : {
+      "name" : "G1 Old Gen",
+      "type" : "Heap memory",
+      "init" : 503316480,
+      "max" : 8480882688,
+      "used" : 19088896,
+      "committed" : 140509184
+    },
+    "mem-pool-6" : {
+      "name" : "G1 Survivor Space",
+      "type" : "Heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 4060064,
+      "committed" : 4194304
+    },
+    "mem-pool-7" : {
+      "name" : "CodeHeap 'non-profiled nmethods'",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 122880000,
+      "used" : 2475136,
+      "committed" : 2555904
+    }
+  },
+  "configuration" : {
+    "akka" : {
+        "actor" : {
+            "provider" : "cluster",
+            "serialization-bindings" : {
+                "com.reactivebbq.orders.SerializableMessage" : "jackson-cbor"
+            }
+        },
+        "cluster" : {
+            "downing-provider-class" : "com.lightbend.akka.sbr.SplitBrainResolverProvider",
+            "seed-nodes" : [
+                "akka://Orders@127.0.0.1:2551",
+                "akka://Orders@127.0.0.1:2552"
+            ],
+            "split-brain-resolver" : {
+                "active-strategy" : "keep-majority"
+            }
+        },
+        "http" : {
+            "server" : {
+                "default-http-port" : "8002",
+                "server-header" : "akka-http/10.1.11"
+            },
+            "version" : "10.1.11"
+        },
+        "loggers" : [
+            "akka.event.slf4j.Slf4jLogger"
+        ],
+        "logging-filter" : "akka.event.slf4j.Slf4jLoggingFilter",
+        "loglevel" : "DEBUG",
+        "management" : {
+            "http" : {
+                "hostname" : "127.0.0.1",
+                "port" : "8560"
+            }
+        },
+        "remote" : {
+            "artery" : {
+                "canonical" : {
+                    "hostname" : "127.0.0.1",
+                    "port" : "2553"
+                },
+                "enabled" : "on",
+                "transport" : "tcp"
+            }
+        },
+        "version" : "2.6.0"
+    },
+    "blocking-dispatcher" : {
+        "executor" : "thread-pool-executor",
+        "thread-pool-executor" : {
+            "fixed-pool-size" : 50
+        },
+        "type" : "Dispatcher"
+    },
+    "cinnamon" : {
+        "akka" : {
+            "actors" : {
+                "/system/sharding/*" : {
+                    "report-by" : "class"
+                },
+                "/user/*" : {
+                    "report-by" : "class"
+                }
+            },
+            "cluster" : {
+                "node-metrics" : "on",
+                "shard-region-info" : "on"
+            },
+            "dispatchers" : {
+                "basic-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                },
+                "time-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                }
+            },
+            "http" : {
+                "clients" : {
+                    "*:*" : {
+                        "paths" : {
+                            "*" : {
+                                "metrics" : "on"
+                            }
+                        }
+                    }
+                },
+                "servers" : {
+                    "*:*" : {
+                        "paths" : {
+                            "*" : {
+                                "metrics" : "on"
+                            }
+                        }
+                    }
+                }
+            },
+            "remote" : {
+                "serialization-timing" : "on"
+            }
+        },
+        "prometheus" : {
+            "exporters" : [
+                "http-server"
+            ],
+            "http-server" : {
+                "host" : "0.0.0.0",
+                "port" : "9003"
+            }
+        }
+    },
+    "excluded-sensitive-paths" : [
+        "user.home",
+        "user.dir",
+        "user.name"
+    ],
+    "file" : {
+        "encoding" : "Cp1250",
+        "separator" : "\\"
+    },
+    "java" : {
+        "class" : {
+            "path" : "C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\job-1\\target\\3c571fda\\6bd3d005\\orders_2.13-0.1-SNAPSHOT.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\3f9af502\\8d7931b3\\cinnamon-scala_2.13-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\91603289\\ddf3583c\\cinnamon-core-java-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\9b9ab3cc\\9e4235b4\\akka-serialization-jackson_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\5033cdac\\aff38c77\\jackson-module-scala_2.13-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\2acf1659\\fcfcb823\\cinnamon-akka-http_2.13-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\4e18366c\\65a4d7a3\\config-1.4.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\f4500287\\0efedb67\\jackson-core-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\d91072b0\\a3544a82\\akka-distributed-data_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\3ae6a80d\\e1526a54\\jandex-2.0.5.Final.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\712e9ee8\\8752e249\\akka-split-brain-resolver_2.13-1.1.12.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\46ae466b\\cb34b137\\scala-java8-compat_2.13-0.9.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\873cd95d\\4233fb28\\jackson-datatype-jdk8-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\723b8b4a\\48c8d9ca\\jaxb-api-2.3.1.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\e599dd38\\066b4db5\\commons-lang3-3.5.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\436c7416\\f7a642d3\\scala-library-2.13.1.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\6eff02eb\\0caa92e8\\txw2-2.3.1.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\28866b89\\48a5ef8b\\akka-http-spray-json_2.13-10.1.11.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\b572b182\\de51ef4b\\scala-parser-combinators_2.13-1.1.2.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\d8da942f\\a5f09784\\spray-json_2.13-1.3.5.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\d363d7dc\\a83fa3ff\\classmate-1.3.4.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\5ae0de18\\29a67df4\\jnr-a64asm-1.0.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\0eb838ec\\173c0be0\\akka-coordination_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\4466a4ab\\0a68ca93\\akka-protobuf-v3_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\d0b0f822\\721ddddb\\cinnamon-jvm-metrics-producer-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\3a4f3542\\dccb3b8e\\jnr-constants-0.9.12.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\f5f60b50\\12b3affb\\akka-http-core_2.13-10.1.11.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\92529b69\\f5a8db26\\ssl-config-core_2.13-0.4.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\752e9fd2\\c140e4ce\\simpleclient-0.8.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\999ee7d8\\97705cb7\\logback-classic-1.2.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\4ec22eb7\\3a1689ef\\asm-commons-5.0.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\dc48f4f6\\be238050\\asm-5.0.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\602e5b45\\505e9f5a\\istack-commons-runtime-3.0.7.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\17aa6eaa\\11c5c43b\\akka-cluster-sharding_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\96ac31bf\\afa76a91\\h2-1.4.199.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\980d4b6b\\bb6a568b\\hibernate-entitymanager-5.4.6.Final.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\cea9423f\\3fb9012e\\lmdbjava-0.7.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\8c4c7680\\025fb2e5\\jackson-annotations-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\408eee60\\af2bdcdb\\c3p0-0.9.5.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\f55cc5cc\\c653cd40\\FastInfoset-1.2.15.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\fba62687\\aa4347ce\\cinnamon-java-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\421008cc\\5dff3bb4\\hibernate-commons-annotations-5.1.0.Final.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\86c86fce\\1b96c5e6\\simpleclient_httpserver-0.8.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\87cd75d3\\a7690bbc\\akka-management-cluster-http_2.13-1.0.5.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\ff655ce2\\4e207215\\akka-slf4j_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\427d8b5d\\0e96b0bf\\byte-buddy-1.9.11.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\512d0560\\79aadb42\\javax.persistence-api-2.2.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\8805791f\\be35860f\\agrona-1.0.8.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\e294afad\\ea1caec1\\protobuf-java-3.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\98e6251d\\d9e87303\\mchange-commons-java-0.2.15.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\3c787136\\14d77992\\HdrHistogram-2.1.12.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\849b419b\\9f77b5f0\\simpleclient_common-0.8.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\9f3000e5\\17cd9300\\jackson-dataformat-cbor-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\78537e84\\9058fb50\\cinnamon-common-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\bc8afef0\\3a662b3b\\akka-diagnostics_2.13-1.1.12.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\577ed7c5\\76f2ba34\\jnr-ffi-2.1.9.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\1ef9f262\\d0557251\\stax-ex-1.8.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\820d0e17\\3df2aabe\\jffi-1.2.18.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\c231f05c\\40227031\\javassist-3.24.0-GA.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\69f15e4d\\21bc5909\\antlr-2.7.7.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\8566b4c7\\f69ed484\\cinnamon-akka_2.13-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\93bc79b6\\d43d3445\\hibernate-core-5.4.6.Final.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\99962e00\\c21dd68c\\akka-http_2.13-10.1.11.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\7e42db21\\814119e2\\akka-cluster_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\f44a6e0c\\748e460d\\cinnamon-prometheus-httpserver-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\43244328\\052d106f\\slf4j-api-1.7.28.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\9e089e4a\\53b2dca7\\dom4j-2.1.1.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\ee68422e\\7acd4d65\\jboss-logging-3.3.2.Final.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\7871253c\\e695b49a\\akka-actor_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\b8184c81\\80eb210f\\akka-remote_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\83915d7e\\4d6ce4ea\\javax.activation-api-1.2.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\66bfbb52\\d875bee2\\jnr-x86asm-1.0.2.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\e841d7e2\\1b1e610b\\cinnamon-prometheus-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\273e940d\\30189697\\akka-management_2.13-1.0.5.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\b99d61f1\\daed874d\\paranamer-2.8.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\f5867a11\\3bc0ac48\\akka-persistence_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\27943f58\\c15dcf6d\\jaxb-runtime-2.3.1.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\8009b06e\\002f34b9\\cinnamon-core_2.13-2.13.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\8b300e30\\8fa64fae\\reactive-streams-1.0.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\add99749\\e023e618\\jackson-module-parameter-names-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\1624694c\\2a0bf9ae\\asm-tree-5.0.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\0e9ce94f\\ab926ea8\\jackson-module-paranamer-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\f0921153\\22111b7f\\asm-analysis-5.0.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\609b3521\\eca239bd\\jffi-1.2.18-native.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\27ae3c2d\\2c145835\\asm-util-5.0.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\8388f38d\\c5f17aae\\akka-parsing_2.13-10.1.11.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\1ca5cd24\\a021cd8c\\jackson-datatype-jsr310-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\14d8bab0\\8d05bad2\\logback-core-1.2.3.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\87ab9df1\\054ff98d\\akka-cluster-tools_2.13-2.6.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\fe4950bf\\159e56d9\\hibernate-c3p0-5.4.6.Final.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\49646955\\4870ab3c\\jackson-databind-2.10.0.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\76242736\\9fac7827\\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\\Users\\HR11MD\\AppData\\Local\\Temp\\sbt_46988f7\\target\\fdd85097\\5254d47e\\akka-stream_2.13-2.6.0.jar",
+            "version" : "57.0"
+        },
+        "home" : "C:\\Users\\HR11MD\\jdk-13.0.2",
+        "io" : {
+            "tmpdir" : "C:\\Users\\HR11MD\\AppData\\Local\\Temp\\"
+        },
+        "library" : {
+            "path" : "C:\\Users\\HR11MD\\jdk-13.0.2\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\Users\\hr11md\\bin;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\usr\\local\\bin;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\hr11md\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\SafeNet\\Authentication\\SAC\\x64;C:\\Program Files\\SafeNet\\Authentication\\SAC\\x32;%MAVEN%\\bin;%JAVA_HOME%\\bin;C:\\Users\\HR11MD\\Nodejs;C:\\Users\\HR11MD\\SBT\\bin;C:\\Program Files\\PuTTY;C:\\Users\\HR11MD\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\cmd;C:\\Users\\HR11MD\\Programs\\chocolatey\\bin;C:\\Users\\HR11MD\\Programs\\tools\\git\\bin;C:\\Users\\HR11MD\\apache-maven-3.6.3-bin\\apache-maven-3.6.3\\bin;C:\\Users\\HR11MD\\jdk-13.0.2\\bin;C:\\Users\\HR11MD\\AppData\\Roaming\\npm;C:\\Users\\HR11MD\\Microsoft VS Code\\bin;C:\\Users\\HR11MD\\gradle-6.3-all\\gradle-6.3\\bin;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\usr\\bin\\vendor_perl;C:\\Users\\HR11MD\\AppData\\Local\\Programs\\Git\\usr\\bin\\core_perl;."
+        },
+        "runtime" : {
+            "name" : "Java(TM) SE Runtime Environment",
+            "version" : "13.0.2+8"
+        },
+        "specification" : {
+            "name" : "Java Platform API Specification",
+            "vendor" : "Oracle Corporation",
+            "version" : "13"
+        },
+        "vendor" : {
+            "url" : {
+                "bug" : "https://bugreport.java.com/bugreport/"
+            }
+        },
+        "version" : "13.0.2",
+        "vm" : {
+            "compressedOopsMode" : "Zero based",
+            "info" : "mixed mode, sharing",
+            "name" : "Java HotSpot(TM) 64-Bit Server VM",
+            "specification" : {
+                "name" : "Java Virtual Machine Specification",
+                "vendor" : "Oracle Corporation",
+                "version" : "13"
+            },
+            "vendor" : "Oracle Corporation",
+            "version" : "13.0.2+8"
+        }
+    },
+    "jdk" : {
+        "debug" : "release"
+    },
+    "line" : {
+        "separator" : "\r\n"
+    },
+    "os" : {
+        "arch" : "amd64",
+        "name" : "Windows 10",
+        "version" : "10.0"
+    },
+    "path" : {
+        "separator" : ";"
+    },
+    "sun" : {
+        "arch" : {
+            "data" : {
+                "model" : "64"
+            }
+        },
+        "boot" : {
+            "library" : {
+                "path" : "C:\\Users\\HR11MD\\jdk-13.0.2\\bin"
+            }
+        },
+        "cpu" : {
+            "endian" : "little",
+            "isalist" : "amd64"
+        },
+        "io" : {
+            "unicode" : {
+                "encoding" : "UnicodeLittle"
+            }
+        },
+        "java" : {
+            "command" : "com.reactivebbq.orders.Main -Dakka.http.server.default-http-port=8002 -Dakka.remote.artery.canonical.port=2553 -Dakka.management.http.port=8560 -Dcinnamon.prometheus.http-server.port=9003",
+            "launcher" : "SUN_STANDARD"
+        },
+        "jnu" : {
+            "encoding" : "Cp1252"
+        },
+        "management" : {
+            "compiler" : "HotSpot 64-Bit Tiered Compilers"
+        },
+        "os" : {
+            "patch" : {
+                "level" : ""
+            }
+        }
+    },
+    "user" : {
+        "country" : {
+            "format" : "RO"
+        },
+        "language" : {
+            "format" : "ro"
+        },
+        "script" : "",
+        "timezone" : "Europe/Bucharest",
+        "variant" : ""
+    }
+}
+}
+
